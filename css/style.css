@@ -1,57 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('./header.css');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: black;
 }
 
 html{
     height: 500vh;
 }
 
-.container{
-    max-width: 1280px;
-    margin: auto;
-}
-
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header{
-    width: 100%;
-    padding: 60px 4%;
-}
-
-header i{
-    font-size: 30px;
-    color: #ffff;
-    font-family: 'Dancing Script', cursive;
-}
-
-header ul{
-    list-style-type: none;
-}
-
-header ul li{
-    display: inline-block;
-    margin: 0 40px;
-}
-
-header ul li a{
-    color: #fff;
-    text-decoration: none;
-}
-
 .landing{
     height: 100vh;
-    background-image: url();
-    background-position: center;
+    background-image: url(../imgs/Jessyca-portfolio.png);
+    background-position: 100% 0;
     background-repeat: no-repeat;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.landing h1{
+    text-shadow: 0 0 0.2em #1b1c20, 0 0 0.2em #1b1c20, 0 0 0.2em #1b1c20;
+    color: #ffff;
+    font-size: 4em;
+    /* margin-top: 40px; */
+}
+
+.landing h1 span{
+    color: #5400ba;
+}
+
+main{
+    background-image: #1b1c20;
+}
+
