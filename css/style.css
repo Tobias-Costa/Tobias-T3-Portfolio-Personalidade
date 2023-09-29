@@ -32,10 +32,11 @@ html{
 }
 
 .landing h1 span{
-    color: #5400ba;
+    color: #8420ff;
 }
 
 main{
     background-image: #1b1c20;
+    /* https://www.magicpattern.design/tools/css-backgrounds */
 }
 

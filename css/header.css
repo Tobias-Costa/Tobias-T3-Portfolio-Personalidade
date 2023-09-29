@@ -23,16 +23,46 @@ header i{
     font-family: 'Dancing Script', cursive;
 }
 
-header ul{
-    list-style-type: none;
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    width: 20%;
+    height: 100%;
 }
 
-header ul li{
-    display: inline-block;
-    margin: 0 40px;
+nav li{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 40px;
 }
 
-header ul li a{
-    color: #fff;
+nav li a{
     text-decoration: none;
+    position: relative;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+
+nav li a:after{
+    content: '';
+    position: absolute;
+    background-color:#8420ff;
+    height: 3px;
+    width: 0;
+    left: 0px;
+    bottom: -5px;
+    transition: 0.3s;
+}
+
+nav li a:hover{
+    color: #8420ff;
+}
+
+nav li a:hover:after{
+    width: 100%;
 }
