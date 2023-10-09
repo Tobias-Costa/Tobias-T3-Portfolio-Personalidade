@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('./header.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    background-image: radial-gradient(#1b1c20 1.4500000000000002px, #000000 1.4500000000000002px);
+    background-size: 29px 29px;
+    overflow-x: hidden;
+}
+
+h2{
+    letter-spacing:1.5px;
+    margin: 2rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 10rem;
+    flex-direction: column;
+}
+
+.doutorado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94%;
+    height: 60vh;
+    margin: 2.5rem;
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: 0.5s ease;
+}
+
+.doutorado:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    -moz-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+}
+
+.doutor-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-mask-image: linear-gradient(to left, transparent 0.5%, black 50%);
+    width: 45%;
+    height: 100%;
+}
+
+.doutor-img img{
+    transform: scaleX(-1);
+    border-radius: 15px;
+    margin-right: 5px;
+    height: 100%;
+}
+
+.doutor-text{
+    text-align: center;
+}
+
+
+
+
+
+.eng-telecom{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94%;
+    height: 60vh;
+    margin: 2.5rem;
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: 0.5s ease;
+}
+
+.eng-telecom:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    -moz-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+}
+
+.telecom-text{
+    text-align: center;
+}
+
+.telecom-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-mask-image: linear-gradient(to right, transparent 0.5%, black 50%);
+    width: 45%;
+    height: 100%;
+}
+
+.telecom-img img{
+    border-radius: 15px;
+    margin-right: 5px;
+    height: 100%;
+}
+
+
+
+
+
+
+.eng-mecatronica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 94%;
+    height: 60vh;
+    margin: 2.5rem;
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: 0.5s ease;
+}
+
+.eng-mecatronica:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    -moz-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+}
+
+.mecatronica-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-mask-image: linear-gradient(to left, transparent 0.5%, black 50%);
+    width: 45%;
+    height: 100%;
+}
+
+.mecatronica-img img{
+    transform: scaleX(-1);
+    border-radius: 15px;
+    margin-right: 5px;
+    height: 100%;
+}
+
+.mecatronica-text{
+    text-align: center;
+}
+
+
+.linguas-estrangeiras{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: flex;
+    width: 100%;
+    height: 80vh;
+    margin: 5rem;
+}
+
+.ingles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 90vh;
+    margin: 1.5rem;
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: 0.5s ease;
+}
+
+.ingles:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    -moz-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+}
+
+.ingles-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-mask-image: linear-gradient(to top, transparent 0.5%, black 25%);
+    width: 95%;
+    height: 70%;
+    margin-bottom: 3.5rem;
+    
+}
+
+.ingles-img img{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    margin-right: 5px;
+    background-size: cover;
+}
+
+.ingles-text{
+    text-align: center;
+    margin: 30px;
+}
+
+
+
+.portugues{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 90vh;
+    margin: 1.5rem;
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: 0.5s ease;
+}
+
+.portugues:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    -moz-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+}
+
+.portugues-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-mask-image: linear-gradient(to top, transparent 0.5%, black 25%);
+    width: 95%;
+    height: 70%;
+    margin-bottom: 3.5rem;
+    
+}
+
+.portugues-img img{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    margin-right: 5px;
+    background-size: cover;
+}
+
+.portugues-text{
+    text-align: center;
+    margin: 30px;
+}
+
+
+
+.espanhol{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 90vh;
+    margin: 1.5rem;
+    border-radius: 15px;
+    -webkit-transition: -webkit-transform 1s ease;
+    transition: 0.5s ease;
+}
+
+.espanhol:hover{
+    transform: scale(1.05);
+    -webkit-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    -moz-box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+    box-shadow: -6px 10px 71px -7px rgba(132,32,255,0.89);
+}
+
+.espanhol-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-mask-image: linear-gradient(to top, transparent 0.5%, black 25%);
+    width: 95%;
+    height: 70%;
+    margin-bottom: 3.5rem;
+    
+}
+
+.espanhol-img img{
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    margin-right: 5px;
+    background-size: cover;
+}
+
+.espanhol-text{
+    text-align: center;
+    margin: 30px;
+}

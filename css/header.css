@@ -1,20 +1,22 @@
 .container{
     max-width: 1280px;
     margin: auto;
+    background-image: #1b1c20;
 }
 
 .flex{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 header{
     width: 100%;
     padding: 60px 4%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
+    z-index: 9;
 }
 
 header i{
@@ -30,6 +32,8 @@ nav{
     list-style: none;
     width: 20%;
     height: 100%;
+    margin-right: 4rem;
+    
 }
 
 nav li{
@@ -61,6 +65,7 @@ nav li a:after{
 
 nav li a:hover{
     color: #8420ff;
+    transform: scale(1.05);
 }
 
 nav li a:hover:after{
